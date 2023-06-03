@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.correo{
+    color: black;
+    display: flex;
+    margin-right: 900%;
+}
+.mailhead{
+    font-size: 150%;
+    margin-left: 900px;  
+}
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.whatsapp{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.contenedor{
+
+    padding:60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulos{
+    color: #6e0f6b;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6dd4fa7a, #297fb99f), url(../img/img1.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size:contain;
+     background-attachment: fixed;
+     position:relative;
+     
+}
+
+nav{ 
+    text-align:right;
+    padding: 30px 50px 0 0;
+    text-decoration: none;
+    margin-right: 10px;
+  
+}
+
+nav > a{ 
+   color: bisque;
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+  
+}
+
+nav > a:hover{
+    text-decoration: underline;
+     
+}
+
+h1{
+    color: rgb(102, 6, 102);
+   text-align: center;
+   font-size: 50px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(102, 6, 102);
+    font-size: 35px;
+
+}
+
+h4{
+    vertical-align: right;
+}
+
+form {
+    text-align: center;
+}
+
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.EMPIEZAYA{
+     margin-left: 20px;
+}
+
+input{
+    border-radius: 15px;
+}
+
+.contenedor-portafolio{
+    padding-bottom: 30px;
+
+}
+
+.portafolio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.portafolio-ind{
+    width: 28%;
+    text-align: center;
+
+}
+
+.portafolio-ind img{
+    width: 90% ;
+    border-radius: 20px;
+}
+
+.portafoli-ind h3{
+    margin: 10px 0;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card{
+    background-color: #6faeae;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: solid #FFFFFF;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards.card > .contenidos-textos-cards{
+    width: 60%;
+    font-size: 20%;
+
+} 
+
+.cards .card p {
+    color: aliceblue;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .cards .card{
+        width: 95%;
+    }
+
+    footer{
+
+        padding: 60px 0 30px 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .contenedor-footer{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .content-foo{
+        text-align: center;
+    }
+    
+    .content-foo h4{
+        color: #000000;
+        border-bottom: 3px solid #af20d3;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .content-foo p{
+        color: #000000;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+footer{
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #000000;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #000000;
+}
+
+.titulo-final{
+    text-align: center;
+}
+
